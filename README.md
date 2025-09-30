@@ -85,9 +85,9 @@ Menambahkan selector ID dan class pada file `style_eksternal.css`.
 ![gambar9](screenshot/step5.png)
 
 # Output :
-- #Area intro sekarang punya background biru dan teks judul jadi putih.
+- Area intro sekarang punya background biru dan teks judul jadi putih.
 
-- #Tombol "Informasi selengkapnya" punya style khusus dengan warna merah.
+- Tombol "Informasi selengkapnya" punya style khusus dengan warna merah.
 ![gambar10](screenshot/output5.png)
 
 ### TANYA JAWAB SOAL CSS DASAR
