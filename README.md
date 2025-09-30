@@ -1,7 +1,7 @@
 # LAPORAN PRAKTIKUM 2
 DAFTAR ISI
 ==========
-- [LAPORAN PRAKTIKUM 1](#laporan-praktikum-1) 
+- [LAPORAN PRAKTIKUM 2](#laporan-praktikum-2) 
     - [LATAR BELAKANG CSS DASAR](#latar-belakang-css-dasar)
     - [STRUKTUR CSS](struktur-css)
     - [ATURAN PENULISAN CSS](aturan-penulisan-css)
@@ -49,7 +49,7 @@ Halaman menampilkan judul, menu navigasi, dan teks perkenalan sederhana tanpa st
 Menambahkan CSS internal pada bagian <head> menggunakan tag <style>.
 
 # Input:
-![gambar3](screenshot/step3.png)
+![gambar3](screenshot/step2.png)
 
 # Output :
 Sekarang tampilan judul menjadi rata tengah dengan warna biru, ada garis bawah pada header, dan font lebih rapi.
