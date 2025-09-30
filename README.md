@@ -98,7 +98,7 @@ Jawab: Dalam eksperimen, kita bisa menambahkan properti seperti background-color
 
 # 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
 
-Jawab: Selector h1 {} berlaku untuk semua elemen <h1> di halaman, sedangkan #intro h1 {} hanya berlaku untuk <h1> yang ada di dalam elemen ber-ID intro. Karena lebih spesifik,aturan #intro h1 akan mengalahkan aturan h1 jika keduanya mendeklarasikan properti yang sama. Ini menunjukkan prinsip spesifisitas dalam CSS, di mana selector yang lebih terarah memiliki prioritas lebih tinggi.
+Jawab: Selector h1 {} berlaku untuk semua elemen (h1) di halaman, sedangkan intro h1 {} hanya berlaku untuk <h1> yang ada di dalam elemen ber-ID intro. Karena lebih spesifik, aturan intro h1 akan mengalahkan aturan h1 jika keduanya mendeklarasikan properti yang sama. Ini menunjukkan prinsip spesifisitas dalam CSS, di mana selector yang lebih terarah memiliki prioritas lebih tinggi.
 
 # 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS padaelemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
@@ -106,7 +106,7 @@ Jawab: Jika satu elemen mendapat style dari eksternal, internal, dan inline CSS,
 
 # 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebutterdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> ) bantu saya jawab soal ini
 
-Jawab: Jika sebuah elemen memiliki ID dan class sekaligus, dan keduanya mengatur properti yang sama, maka aturan ID akan lebih diutamakan karena spesifisitasnya lebih tinggi.Contohnya <p id="paragraf-1" class="text-paragraf"> akan tampil merah jika ID memberi warna merah, meski class memberi warna biru. Namun properti yang berbeda dari class tetap berlaku, sehingga biasanya class digunakan untuk style yang berulang, sementara ID dipakai untuk elemen khusus.
+Jawab: Jika sebuah elemen memiliki ID dan class sekaligus, dan keduanya mengatur properti yang sama, maka aturan ID akan lebih diutamakan karena spesifisitasnya lebih tinggi.Contohnya "p id="paragraf-1" class="text-paragraf" akan tampil merah jika ID memberi warna merah, meski class memberi warna biru. Namun properti yang berbeda dari class tetap berlaku, sehingga biasanya class digunakan untuk style yang berulang, sementara ID dipakai untuk elemen khusus.
 
 ## KESIMPULAN
 Dari praktikum CSS dasar dapat disimpulkan bahwa penggunaan CSS sangat penting untuk mengatur tampilan halaman web agar lebih menarik, rapi, dan konsisten. CSS dapat ditulis dalam tiga cara, yaitu inline, internal, dan eksternal, dengan urutan prioritas penerapan: inline > internal > eksternal. Selector juga memiliki peran penting dalam menentukan gaya yang diterapkan, di mana selector ID memiliki spesifisitas lebih tinggi dibandingkan class maupun elemen biasa, sehingga lebih diutamakan jika terjadi konflik. Eksperimen penambahan properti CSS membantu memahami bagaimana setiap aturan memengaruhi desain, misalnya warna, jarak, ukuran huruf, atau tata letak. Dengan memahami prinsip cascade, inheritance, dan specificity, seorang web developer dapat menuliskan kode CSS yang lebih efektif, terstruktur, serta mudah dikelola dalam pengembangan web jangka panjang.
